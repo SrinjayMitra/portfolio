@@ -43,22 +43,22 @@ export function Dock() {
       icon: (
         <IconBrandLinkedin className="h-full w-full text-green-500" />
       ),
-      href: "https://www.linkedin.com/in/kintsugi-programmer/",
+      href: "https://www.linkedin.com/in/srinjay-mitra/",
     },
 
-    {
-      title: "Behance",
-      icon: (
-        <IconBrandBehance className="h-full w-full text-green-500" />
-      ),
-      href: "https://www.behance.net/balibhai",
-    },
+    // {
+    //   title: "Behance",
+    //   icon: (
+    //     <IconBrandBehance className="h-full w-full text-green-500" />
+    //   ),
+    //   href: "https://www.behance.net/balibhai",
+    // },
     {
       title: "GitHub",
       icon: (
         <IconBrandGithub className="h-full w-full text-green-500" />
       ),
-      href: "https://github.com/kintsugi-programmer",
+      href: "https://github.com/SrinjayMitra",
     },
   ];
   return (

@@ -9,8 +9,8 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "KintsugiDevStudio",
-  description: "Siddhant Bali's Portfolio | IIIT Delhi CSD 2026 Batch",
+  title: "SrinjayDevStudio",
+  description: "Srinajay Mitra's Portfolio | SOSY SFU",
 };
 
 export default function RootLayout({

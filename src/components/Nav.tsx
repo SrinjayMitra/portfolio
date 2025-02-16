@@ -25,7 +25,7 @@ function Navbar({ className }: { className?: string }) {
         <div className="w-full flex justify-between items-center">
           {/* Logo on the left */}
           <Link href="/" className="flex-shrink-0">
-            <p className="font-bold">&gt;kintsugi-programmer</p>        
+            <p className="font-bold">&gt;Srinjay.dev</p>        
           </Link>
 
           {/* Hamburger Icon for small screens */}

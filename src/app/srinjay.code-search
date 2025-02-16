@@ -1,0 +1,33 @@
+# Query: srinjay
+# ContextLines: 1
+
+6 results - 5 files
+
+src/app/layout.tsx:
+  11  export const metadata: Metadata = {
+  12:   title: "SrinjayDevStudio",
+  13    description: "Srinajy Mitra's Portfolio | SOSY SFU",
+
+src/components/About.tsx:
+  162          <AnimatedSpan delay={1500} className="text-green-500">
+  163:           <span>✔ Identity Verified: Srinjay Mitra</span>
+  164          </AnimatedSpan>
+
+src/components/Dock.tsx:
+  45        ),
+  46:       href: "https://www.linkedin.com/in/srinjay-mitra/",
+  47      },
+
+  60        ),
+  61:       href: "https://github.com/SrinjayMitra",
+  62      },
+
+src/components/Hero.tsx:
+  6      <div className="relative md:h-[30rem] h-[40rem] flex flex-col md:flex-row items-center justify-center">
+  7:       <TextHoverEffect text="Srinjay" />
+  8  
+
+src/components/Nav.tsx:
+  27            <Link href="/" className="flex-shrink-0">
+  28:             <p className="font-bold">&gt;Srinjay.dev</p>        
+  29            </Link>

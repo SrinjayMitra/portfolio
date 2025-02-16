@@ -142,10 +142,10 @@ export const Header = () => {
     <div className="md:w-2/3 text-center pr-12 md:text-left">
     
       <h1 className="text-2xl md:text-7xl font-bold text-green">
-        Kintsugi <br /> development studio
+        Srinjay's <br /> development studio
       </h1>
       <p className="max-w-4xl text-justify text-base md:text-xl mt-8 dark:text-neutral-200">
-        As a passionate web developer with 2+ years of experience, I
+        As a passionate web developer with about a year of experience, I
         specialize in creating innovative, scalable, and responsive
         production-optimized web solutions. I thrive on delivering
         high-quality, user-focused web applications that drive measurable

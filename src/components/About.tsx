@@ -137,7 +137,7 @@ const About = () => {
         <div className="flex flex-col md:flex-row gap-8 ">
             <div className="">
         <Image
-                        src="/me.jpg"
+                        src="/img.png"
                         alt="Developer Illustration"
                         width={400}
                         height={400}
@@ -160,11 +160,11 @@ function TerminalDemo() {
         <TypingAnimation>&gt; booting up profile...</TypingAnimation>
 
         <AnimatedSpan delay={1500} className="text-green-500">
-          <span>✔ Identity Verified: Siddhant Bali</span>
+          <span>✔ Identity Verified: Srinjay Mitra</span>
         </AnimatedSpan>
 
         <AnimatedSpan delay={2500} className="text-green-500">
-          <span>✔ Specialization: DevOps | Cloud | Security</span>
+          <span>✔ Specialization: MERN | Cloud | Security</span>
         </AnimatedSpan>
 
         <AnimatedSpan delay={3500} className="text-green-500">
@@ -199,13 +199,13 @@ function TerminalDemo() {
           <span>✔ Scripting: Bash | SQL | Java</span>
         </AnimatedSpan>
 
-        <AnimatedSpan delay={11500} className="text-green-500">
+        {/* <AnimatedSpan delay={11500} className="text-green-500">
           <span>✔ Research: HCI | Distributed Systems</span>
-        </AnimatedSpan>
+        </AnimatedSpan> */}
 
         <AnimatedSpan delay={12500} className="text-blue-500">
           <span>ℹ System Log:</span>
-          <span className="pl-2">Associations: IIITD | HCD | CB | AIIMS</span>
+          <span className="pl-2">Associations: SFU ROCKETRY | HORIZON EXPEDITIONS </span>
         </AnimatedSpan>
 
         <TypingAnimation delay={13500} className="text-muted-foreground">
