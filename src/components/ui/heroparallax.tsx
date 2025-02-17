@@ -9,6 +9,7 @@ import {
 } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import { FaGithub } from 'react-icons/fa';
 
 export const HeroParallax = ({
   products,
@@ -17,6 +18,7 @@ export const HeroParallax = ({
     title: string;
     link: string;
     thumbnail: string;
+    github?: string;
   }[];
 }) => {
   const firstRow = products.slice(0, 4);
@@ -177,6 +179,7 @@ export const ProductCard = ({
     title: string;
     link: string;
     thumbnail: string;
+    github?: string;
   };
   translate: MotionValue<number>;
 }) => {
@@ -193,6 +196,7 @@ export const ProductCard = ({
     >
       <Link
         href={product.link}
+        target="_blank"
         className="block group-hover/product:shadow-2xl "
       >
         <Image
@@ -207,6 +211,11 @@ export const ProductCard = ({
       <h2 className="absolute bottom-4 left-4 opacity-0 group-hover/product:opacity-100 rounded-xl text-green-500">
         {product.title}
       </h2>
+      {product.github && (
+        <Link href={product.github} target="_blank" className="absolute bottom-3 right-2">
+          <FaGithub className="text-gray-400 hover:text-white transition-colors duration-200" size={38} />
+        </Link>
+      )}
     </motion.div>
   );
 };

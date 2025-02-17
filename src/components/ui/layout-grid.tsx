@@ -11,7 +11,12 @@ type Card = {
   thumbnail: string;
 };
 
-export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
+interface LayoutGridProps {
+  cards: Card[];
+  className?: string;
+}
+
+export const LayoutGrid: React.FC<LayoutGridProps> = ({ cards, className }) => {
   const [selected, setSelected] = useState<Card | null>(null);
   const [lastSelected, setLastSelected] = useState<Card | null>(null);
 
@@ -26,7 +31,7 @@ export const LayoutGrid = ({ cards }: { cards: Card[] }) => {
   };
 
   return (
-    <div className="w-full h-full p-2 grid grid-cols-1 md:grid-cols-3  max-w-7xl mx-auto gap-4 relative">
+    <div className={cn("w-full h-full p-2 grid grid-cols-1 md:grid-cols-3  max-w-7xl mx-auto gap-4 relative", className)}>
       {cards.map((card, i) => (
         <div key={i} className={cn(card.className, "")}>
           <motion.div

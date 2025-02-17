@@ -34,6 +34,7 @@ function Navbar({ className }: { className?: string }) {
               <div className="flex flex-col space-y-4 text-sm">
               <HoveredLink href="/">About Me</HoveredLink>
           <HoveredLink href="#work">Projects</HoveredLink>
+          <HoveredLink href="#experience">Experience</HoveredLink>
           <HoveredLink href="#captures">Captures</HoveredLink>
           <HoveredLink href="#contact">Reach Out</HoveredLink>
               </div>
@@ -44,6 +45,7 @@ function Navbar({ className }: { className?: string }) {
           <div className={`flex items-center gap-6 ${menuOpen ? 'flex-col absolute bg-white top-16 left-4 right-4 p-6' : 'hidden lg:flex'}`}>
           <HoveredLink href="/">About Me</HoveredLink>
           <HoveredLink href="#work">Projects</HoveredLink>
+          <HoveredLink href="#experience">Experience</HoveredLink>
           <HoveredLink href="#captures">Captures</HoveredLink>
           <HoveredLink href="#contact">Reach Out</HoveredLink>
             {/* <MenuItem setActive={setActive} active={active} item="Services">

@@ -28,15 +28,17 @@ export function Dock() {
       icon: (
         <IconTerminal2 className="h-full w-full text-green-500" />
       ),
-      href: "https://kintsugi-programmer.github.io/about.html",
+      href: "https://about.srinjaymitra.site/",
     },
-    {
-      title: "Blogs",
-      icon: (
-        <IconNews className="h-full w-full text-green-500" />
-      ),
-      href: "https://kintsugicodes.hashnode.dev/",
-    },
+    // TODO: chnage blogs to projects on projects.srinjaymitra.site
+    // {
+    //   title: "Blogs",
+    //   icon: (
+    //     <IconNews className="h-full w-full text-green-500" />
+    //   ),
+    //   // href: "https://kintsugicodes.hashnode.dev/",
+    //   href: "https://about.srinjaymitra.site/",
+    // },
 
     {
       title: "LinkedIn",

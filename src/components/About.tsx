@@ -205,7 +205,7 @@ function TerminalDemo() {
 
         <AnimatedSpan delay={12500} className="text-blue-500">
           <span>ℹ System Log:</span>
-          <span className="pl-2">Associations: SFU ROCKETRY | HORIZON EXPEDITIONS </span>
+          <span className="pl-2">Associations: SFU ROCKETRY | JP MORGAN </span>
         </AnimatedSpan>
 
         <TypingAnimation delay={13500} className="text-muted-foreground">

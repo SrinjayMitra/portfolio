@@ -6,12 +6,14 @@ import Capture from '@/components/Capture'
 import { Portfolio } from '@/components/portfolio'
 import About from '@/components/About'
 import Contact from '@/components/Contact'
+import WorkExperience from '@/components/WorkExperience'
 const page = () => {
   return (
     <main className=" relative bg-black-100 flex justify-center items-center flex-col pt-[10] mx-auto sm:px-10 px-5 ">
     <div className="max-w-7xl w-full">
       <Hero />
       <About/>
+      
       
 <section id="work">
       <div className="hidden md:block">
@@ -26,6 +28,9 @@ const page = () => {
 {/* <div className='py-80'> 
       <Grid />
       </div> */}
+<div className="pt-0">
+      <WorkExperience />
+    </div>
       <div>
 <Capture/>
 </div>
